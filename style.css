@@ -1,0 +1,108 @@
+body {
+    background-image: url(img/hatter.png);
+}
+.focim {
+    margin-bottom: 0px;
+}
+.container1 {
+    margin: auto;
+    width: 800px;
+    height: 1300px;
+    background-color: pink;
+    padding: 10px;
+    border: dotted black;
+}
+.vonal {
+    border: 1px solid brown;
+    margin-top: 0px;
+}
+a {
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+.mancs {
+    margin-left: 100px;
+}
+.macskakepek {
+    height: 110px;
+    width: 110px;
+    margin-right: 10px;
+    float: left;
+    border: 1px inset black;
+}
+.container2 {
+    margin: auto;
+    width: 350px;
+    height: 1000px;
+    float: left;
+    background-color: gray;
+    padding: 10px;
+
+}
+.container3 {
+    margin: auto;
+    width: 400px;
+    height: 1000px;
+    float: right;
+    background-color: gray;
+    padding: 10px;
+}
+.container4{
+    height: fit-content;
+    width: 800px;
+    padding: 10px;
+    background-color: pink;
+    border: dotted black;
+    margin:auto;
+    margin-top: 10px;
+}
+.container5 {
+    width: 780px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.container6{
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+.macskanevek {
+    font-size: 30px;
+    border: 2px outset black;
+    background-color: pink;
+    width: 300px;
+    margin-left: 10px;
+    font-style: italic;
+}
+.close {
+    position: absolute;
+    right: 600px;
+    top: 1625px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
